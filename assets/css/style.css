@@ -47,16 +47,16 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
-.line-clamp{
+.line-clamp {
   display: -webkit-box;
   -webkit-line-clamp: var(--line-clamp, 1);
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
-.line-clamp.line-2{
+.line-clamp.line-2 {
   --line-clamp: 2;
 }
-.break-all{
+.break-all {
   word-break: break-all;
 }
 /*===================== header =========================*/
@@ -314,7 +314,7 @@ a {
   align-items: center;
   justify-content: space-between;
 }
-.popular .course-item .title a{
+.popular .course-item .title a {
   color: #171100;
   font-size: 1.8rem;
   font-weight: 600;
@@ -345,4 +345,57 @@ a {
 .popular .course-item .btn-book:hover {
   background: var(--primary-color);
 }
-
+/* ===============feedback================ */
+.feedback {
+  margin-top: 135px;
+  padding: 96px 0;
+  background: #2e2100;
+}
+.feedback-item {
+  display: flex;
+}
+.feedback .avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 72px;
+  object-fit: cover;
+}
+.feedback .info .menber-name {
+  margin-top: 18px;
+  color: #f7f7f7;
+  font-family: var(--font-heading);
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.42; /* 141.667% */
+}
+.feedback .info .desc {
+  color: #bfbcb2;
+  font-size: 1.4rem;
+  line-height: 1.86; /* 185.714% */
+}
+.feedback-item .dots {
+  display: flex;
+  margin-top: 28px;
+  gap: 6px;
+}
+.feedback-item .dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #634700;
+  cursor: pointer;
+}
+.feedback-item .dot.active{
+  background: var(--primary-color);
+  cursor: default;
+}
+.feedback .content{
+  width: 66%;
+  margin-left: auto;
+}
+.feedback blockquote{
+  color: #FFF;
+font-size: 2.6rem;
+font-style: italic;
+line-height: 1.54; /* 153.846% */
+}
