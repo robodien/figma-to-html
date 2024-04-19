@@ -405,3 +405,42 @@ a {
   font-style: italic;
   line-height: 1.54; /* 153.846% */
 }
+/* ===============features================ */
+.features {
+  margin-top: 135px;
+  padding: 65px 0;
+}
+.features .body {
+  display: flex;
+  justify-content: space-between;
+}
+.features .images {
+  display: flex;
+  gap: 30px;
+}
+.features .images img {
+  width: 270px;
+  height: 404px;
+  border-radius: 16px;
+}
+.features img:first-of-type {
+  margin-top: 34px;
+}
+.features .content {
+  width: 41%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.features .desc {
+  margin-top: 16px;
+  color: #5f5b53;
+  font-size: 1.6rem;
+  line-height: 1.75; /* 175% */
+}
+.features .cta-btn {
+  margin-top: 32px;
+  width: 137px;
+  height: 50px;
+  background: var(--primary-color);
+}
